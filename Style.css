@@ -1,0 +1,61 @@
+/*selector{
+	properties:value;
+
+
+}*/
+/*http://paletton.com/#uid=11O0u0kj7jM7i0PcB9CpxtryBU1*/
+/*https://css-tricks.com
+https://elements.envato.com/fonts/pg-2/
+
+
+
+thoughtbot.com/blog/transition-and-transforms
+https://flexboxfroggy.com/
+
+
+opasitty*/
+body{
+	background-image: url(flower1.jpg);
+	background-size: cover;
+	margin: 0px;
+	padding: 0px;
+	/*background-color: #156CB4;*/
+}
+h2 ,p{
+	color:;
+	cursor: pointer;
+	text-align: center;
+	border: 5px solid rgba(215,180,110,0.6);
+
+
+}
+#container{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.nav{
+	font-family: arial;
+	font-size: 2em;
+	border-bottom: 2px solid green;
+	border-right: 2px solid green ;
+	width:100%
+	text-align: center;
+	box-shadow: 5px 5px 5px grey;
+	color: #D6D6D6;
+	background-color:#156CB4 ;
+}
+img{
+	width: 200px;
+	height: 200px;
+	transition: all 1s ;
+	float: right;
+}
+img:hover{
+	transform: scale(1.5);
+}
+p{
+font-size: 20px;
+
+
+}

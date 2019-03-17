@@ -1,0 +1,30 @@
+#container{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.nav{
+	font-family: arial;
+	font-size: 2em;
+	border-bottom: 2px solid green;
+	border-right: 2px solid green ;
+	width:100%
+	text-align: center;
+	box-shadow: 5px 5px 5px grey;
+	color: #D6D6D6;
+	background-color:#156CB4 ;
+}
+img{
+	width: 200px;
+	height: 200px;
+	transition: all 1s ;
+	float: right;
+}
+img:hover{
+	transform: scale(1.5);
+}
+p{
+font-size: 20px;
+
+
+}
